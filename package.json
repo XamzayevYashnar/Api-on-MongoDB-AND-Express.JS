@@ -1,0 +1,19 @@
+{
+  "name": "exam-on-mongodb-and-express",
+  "version": "1.0.0",
+  "description": "mini app on mongodb and express",
+  "license": "ISC",
+  "author": "Xamzayev Yashnarbek",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.3",
+    "mongoose": "^9.8.0",
+    "nodemon": "^3.1.14"
+  }
+}
